@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  /* transform-style: preserve-3d; */
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app{
+  perspective: 1200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: transparent;
+  -webkit-user-select: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* background: #000; */
+}
+body, html{
+  background: transparent;
+}
