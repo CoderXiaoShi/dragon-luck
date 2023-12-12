@@ -16,45 +16,10 @@ import '@/utils/socket'
 
 <template>
   <div class="container" id="phoneContainer">
-
-    <!-- <Test /> -->
-    <Phone />
-
-    <!-- <BottomTools /> -->
+    <router-view/>
   </div>
 </template>
 
-<style scoped>
-#canvas {
-  position: fixed;
-  border: 1px solid #000;
-  top: 0;
-  left: 0;
-}
-</style>
-
 <style >
-#app {
-  cursor: move;
-}
 
-.container {
-  display: flex;
-  cursor: default;
-  flex-direction: column;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
